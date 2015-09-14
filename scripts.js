@@ -35,6 +35,11 @@ $(document).ready(function(){
     });
   });
 
+  $(".show-button").click(function(){
+    $(".show-button").hide();
+    $("#after-note").show();
+  });
+
   $("input#city-name").val("");
   $("input#season").val("");
   $("input.new-note").val("");
